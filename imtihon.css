@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.nav{
+    width: 1480px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.nav h1{
+    color: #FE4610;
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: auto;
+    align-items: center;
+}
+.a a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: black;
+
+    
+}
+.a h4{
+    color: #FE4610;
+}
+.a button{
+    width: 137px;
+    height: 48px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #FE4610;
+    border: none;
+}
+.navbar{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.butget{
+    width: 137px;
+    height: 48px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #FE4610;
+    border: none;
+}
+.butmore{
+    width: 137px;
+    height: 48px;
+    border-radius: 10px;
+    border:  1px solid #FE4610;
+    color: black;
+}
+.grit1{
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; 
+    grid-template-rows: 1fr 1fr ;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    "br ikki bew"
+    "uch tor bew"
+    ;
+   
+}
+.d1{
+    align-items: center;
+    grid-area: br;
+    justify-content: center;
+    display: flex;
+    background-color: #b75234;
+    border-radius: 15px;
+}
+.d2{
+    align-items: center;
+    grid-area: ikki;
+    justify-content: center;
+    display: flex;
+    background-color: #b75234;
+    border-radius: 15px;
+}
+.d3{
+    align-items: center;
+    grid-area: uch;
+    justify-content: center;
+    display: flex;
+    background-color:  #b75234;
+    border-radius: 15px;
+}
+.d4{
+    align-items: center;
+    grid-area: tor;
+    justify-content: center;
+    display: flex;
+    background-color:  #b75234;
+    border-radius: 15px;
+}
+.d5{
+    align-items: center;
+    grid-area: bew;
+    justify-content: center;
+    display: flex;
+    background-color:  #b75234;
+    border-radius: 15px;
+}
+
+
+
+.sinovac{
+    width: 245px;
+    height: 179px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.sinovac p{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.sinovac button{
+    width: 123px;
+    height: 40px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 30px;
+    border: 1px solid #FE4610;
+    color: #FE4610;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.astrazenesa{
+    width: 245px;
+    height: 113px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.astrazenesa h3{
+    margin-left: 110px;
+}
+.astrazenesa p{
+    margin-left: 110px;
+}
+.aes{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.aes a{
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(96, 94, 94);
+    text-decoration: none;
+}
+.vecine{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.schedule{
+    width: 1200px;
+    height: 140px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.loction{
+    width: 281px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+}
+.loction img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.loction h3{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 47px;
+    z-index: 2;
+}
+.loction input{
+    width: 225px;
+    height: 48px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 53px;
+    margin-top: 33px;
+    border: none;
+}
+.schedule button{
+    width: 137px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FE4610;
+    color: white;
+}
+.img1{
+    position: absolute;
+    z-index: 1;
+}
+.img2{
+    position: relative;
+    z-index: 3;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.virus{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.inputs input{
+    width: 355px;
+    height: 48px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+.inputs{
+    width: 95%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.butnov{
+    width: 139.28px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #FE4610;
+    color: white;
+    border: none;
+    margin-left: 630px;
+    margin-top: 70px;
+}
+.jps{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.call img{
+    position: absolute;
+    z-index: 1;
+}
+.call h3{
+    position: absolute;
+    z-index: 2;
+    margin-left: 50px;
+}
+.call p{
+    position: absolute;
+    z-index: 2;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.call button{
+    width: 164px;
+    height: 41px;
+background-color: #FE4610;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.jpss{
+    display: flex;
+    justify-content: space-around;
+}
+.callhome{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 230px;
+    margin-left: -700px;
+}
+.h11{
+    color: #FE4610;
+}
+body p{
+    color: rgb(126, 126, 126);
+}
+.home{
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    
+}
